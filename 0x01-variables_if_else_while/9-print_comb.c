@@ -1,16 +1,20 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * description: 'prints all single digit numbers of base 10 starting from 0'
+ * description: 'prints all possible combinations of single-digit numbers.'
  * Return: Always 0
  */
 int main(void)
 {
-	int x;
+	int n;
 
-	for (x = 48; x <= 57; x++)
+	for (n = 48; n <= 57; n++)
 	{
-		putchar(x);
+		putchar(n);
+		if (n == 57)
+		{
+			continue;
+		}
 		putchar(',');
 		putchar(' ');
 	}
