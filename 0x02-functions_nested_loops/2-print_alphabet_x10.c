@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * print_alphabet - prints 10 times the alphabet, in lowercase
- * Return : Always 0
+ * description: "prints 10 times the alphabet,in lowercase"
+ * prints the letters 'a' to 'z' on a new line.
+ * followed by a new line
  */
 void print_alphabet_x10(void)
 {
